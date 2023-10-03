@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgba(233, 193, 147, 0.466);
+    height: 40px;
+    width: 100%;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul li a{
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    color: rgba(4, 6, 7, 0.829);
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+}
+.kis{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.container{
+    position: relative;
+}
+.text-block{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: bisque;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.form-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7); /* You can adjust the opacity as needed */
+}
+
+.form {
+    text-align: center;
+    color: white;
+}
+
+
+.form input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.pic{
+    display: flex;
+}
+.pic p{
+    justify-content: center;
+    text-align: justify;
+    margin: 30px;
+    word-spacing: 20px;
+
+}
+.pic img{
+    border-radius: 50px;
+}
+.row{
+    display: flex;
+    margin: 20px;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    border: 2px ridge blue;
+    background: linear-gradient( to top, rgb(123, 123, 155) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.box img{
+    width: 100%;
+}
+.box:hover{
+    background-position: bottom;
+    border: none;
+    box-shadow: 3px 4px 5px 6px;
+}
+.row1{
+    display: flex;
+    margin: 20px;
+}
+.box h4{
+    text-align: center;
+    color: rgb(5, 5, 104);
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+
+.spots{
+    margin-left: 80px;
+}
+.spots img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 50px;
+}
+.spots img:hover{
+    box-shadow: 4px 5px 6px 7px;
+}
+.videos{
+    width: 100px;
+    height: 100px;
+    margin: 30px; 
+    display: flex;
+    margin-left: 20px;
+
+}
+iframe{
+    margin: 20px;
+    background-color: rgb(143, 13, 13);
+}
+ 
+footer{
+    margin-top: 250px;
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(189, 103, 103);
+}
+footer a img{
+    height: 50px;
+    width: 70px;
+}
